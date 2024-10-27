@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names: ['0', '1', '2', '3']
+
+roboflow:
+  workspace: eye-annotations-yolo-to-voc
+  project: eye-detection-kso3d
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/eye-annotations-yolo-to-voc/eye-detection-kso3d/dataset/4
